@@ -1,5 +1,5 @@
 FROM java:8
-EXPOSE 8083
+EXPOSE 8084
 COPY /target/cicd-pipeline-0.0.1-SNAPSHOT.jar cicd-pipeline-0.0.1-SNAPSHOT.jar
 MAINTAINER "bakyamech@gmail.com"
 ENTRYPOINT ["java","-jar","cicd-pipeline-0.0.1-SNAPSHOT.jar"]
